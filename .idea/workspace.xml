@@ -1,73 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89bc4a70-c655-49f4-8c12-ecbe22788ca2" name="Default" comment="zpf">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/inc.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/oracle_row2column.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/password" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/row_column.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/相关连接" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/zpf.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/告警/conf.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/告警/hv_e2_f01_monitor_task.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/告警/monitor.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dim_falcons_falcon_realestate_plate.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate_c2.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate_c3.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e2_dim_d20_longitude_latitude_plate_inc.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_longitude2appp.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/ods_longfor_big_data_location_info_joblist.txt.20190318110113801" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/ods_longfor_big_data_location_info_joblist.txt.20190319094739257" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/ods_longfor_big_data_location_info_joblist.txt.20190319152422093" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/ods_longfor_big_data_location_info_joblist.txt.20190319160502165" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/tgt_mysql_longfor_big_data_location_info_joblist.txt.20190319093617518" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/backFiles/tgt_mysql_longfor_big_data_location_info_joblist.txt.20190319094207037" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/dim_cr_house_type_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/dim_f20_spider_house_info_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/falcons_falcon_realestate_plate_c2_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/falcons_falcon_realestate_plate_c3_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/falcons_falcon_realestate_plate_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/ods_longfor_big_data_location_info_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/tgt_mysql_longfor_big_data_location_info_joblist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dim.d20_longitude_latitude_plate.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dim.pub_realestate_plate.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c2.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c3.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_dim.location_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_falcons.falcon_realestate_plate.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_falcons.falcon_realestate_plate_c2.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_falcons.falcon_realestate_plate_c3.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_falcons_falcon_realestate_plate.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_falcons_falcon_realestate_plate_c2.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_falcons_falcon_realestate_plate_c3.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_ods_dim_location_info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/app.a20_longitude_latitude_out.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dim.d20_longitude_latitude.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dim.d20_longitude_latitude_plate.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dx_app_a20_longitude_latitude_out.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dx_e0_ods_dim_location_info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_app_a20_longitude_latitude_out.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_app_a20_longitude_latitude_outdd.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e0_app_a20_longitude_latitude.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e2_dim_d20_longitude_latitude.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e2_dim_d20_longitude_latitude_plate_inc.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/ods_dim.location_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_cr_house_type.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_f20_spider_house_info.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/dwd_dim.dim_cr_house_type.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/dwd_dim.dim_f20_spider_house_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.cr_house_type.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.f20_spider_house_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_cr_house_type.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_f20_spider_house_info.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/mysqlDDL/house_type.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/润乾/mysqlDDL/raqsoft.f20_spider_house_info.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/药方/反流性食道炎" />
+    <list default="true" id="89bc4a70-c655-49f4-8c12-ecbe22788ca2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zpf/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zpf/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zpf/告警/monitor.sh" afterPath="$PROJECT_DIR$/../zpf/告警/monitor.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/../zpf/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -78,7 +14,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="monitor.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../zpf/告警/monitor.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -141,7 +88,6 @@
         <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dwd_ods_longfor_big_data.ods_longfor_big_data_location_info.sql" />
         <option value="$PROJECT_DIR$/../zpf/告警/hv_e2_f01_monitor_task.conf" />
         <option value="$PROJECT_DIR$/../zpf/告警/conf.sh" />
-        <option value="$PROJECT_DIR$/../zpf/告警/monitor.sh" />
         <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dx_e0_ods_dim_location_info.json" />
         <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/ods_longfor_big_data_location_info_joblist.txt" />
         <option value="$PROJECT_DIR$/../zpf/work/password" />
@@ -150,6 +96,7 @@
         <option value="$PROJECT_DIR$/../zpf/work/row_column" />
         <option value="$PROJECT_DIR$/../zpf/work/row_column.sql" />
         <option value="$PROJECT_DIR$/../zpf/药方/反流性食道炎" />
+        <option value="$PROJECT_DIR$/../zpf/告警/monitor.sh" />
       </list>
     </option>
   </component>
@@ -378,6 +325,21 @@
       <option name="presentableId" value="Default" />
       <updated>1532521300572</updated>
     </task>
+    <task id="LOCAL-00001" summary="zpf">
+      <created>1553076512477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1553076512477</updated>
+    </task>
+    <task id="LOCAL-00002" summary="zpf">
+      <created>1553076676603</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553076676603</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -804,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/告警/monitor.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/dim_cr_house_type_joblist.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -824,6 +778,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zpf/告警/monitor.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
     workdir=$(cd `dirname $0`; pwd)
     #导入工具包
     source ${workdir}/conf.sh
