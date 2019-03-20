@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
     workdir=$(cd `dirname $0`; pwd)
     #导入工具包
     source ${workdir}/conf.sh
@@ -10,20 +11,20 @@
     #取字符串日期
     last_monday=\'${last_monday}\'
     monday=\'${monday}\'
-    
+
     #遍历tablelist 取分区数据条数
       cat ${workdir}/tables |while read table person
    do
       #取HIVE结果
       countstring=$( beeline -u jdbc:hive2://10.240.4.221:10000/default -n zhangpan1 -p hdjd2015 -e "
-                          select * from (select count(*) from ${table} where load_date=${last_monday}) a 
+                          select * from (select count(*) from ${table} where load_date=${last_monday}) a
                                        left join (select count(*) from ${table} where load_date=${monday}) b on 1=1")
          if [ $? -eq 0 ]; then
-          
+
             #处理结果
             last_count=$(echo ${countstring} |awk -F\| '{print $5}')
             curr_count=$(echo ${countstring} |awk -F\| '{print $6}')
-          
+
             #取差值
             ((D_V=${curr_count}-${last_count}))
             #取UUID
@@ -45,7 +46,7 @@
 
          else
 
-           echow  HIVE-failed 
+           echow  HIVE-failed
            exit 1
          fi
    done
