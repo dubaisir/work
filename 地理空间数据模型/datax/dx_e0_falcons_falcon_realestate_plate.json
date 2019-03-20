@@ -1,0 +1,192 @@
+{
+    "job": { 
+        "setting": {
+            "speed": {
+                "channel": 5
+            },
+                "errorLimit":{
+                "record":0,
+                "percentage":0
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "${SRC_MYSQL_FALCON_USR}",
+                        "password": "${SRC_MYSQL_FALCON_PWD}",
+                        "connection": [
+                            {
+                                "querySql": [
+                                    "select  
+                                         id, 
+                                         name, 
+                                         code, 
+                                         spell, 
+                                         city_code, 
+                                         city_name, 
+                                         center, 
+                                         longitude, 
+                                         latitude, 
+                                         polyline, 
+                                         date_time, 
+                                         level, 
+                                         level_changed, 
+                                         level_changed_reason, 
+                                         composite_score, 
+                                         plate_attr, 
+                                         create_user, 
+                                         update_user, 
+                                         create_time, 
+                                         update_time, 
+                                         del_flag, 
+                                         '${CURRENT_FLOW_START_DAY}',
+                                         ${EXECUTION_ID} 
+                                    from falcon.falcon_realestate_plate
+                                    where date(update_time) >= '${LAST_EXTRACT_DAY}'"
+                                ],
+                                "jdbcUrl": [
+                                    "${SRC_MYSQL_FALCON_URL}"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "hdfswriter",                              
+                    "parameter": { 
+                        "column": [
+                            {
+                                "name": "id",
+                                "type": "bigint"
+                            },
+
+                            {
+                                "name": "name",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "code",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "spell",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "city_code",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "city_name",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "center",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "longitude",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "latitude",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "polyline",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "date_time",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "level",
+                                "type": "int"
+                            },
+
+                            {
+                                "name": "level_changed",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "level_changed_reason",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "composite_score",
+                                "type": "float"
+                            },
+
+                            {
+                                "name": "plate_attr",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "create_user",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "update_user",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "create_time",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "update_time",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "del_flag",
+                                "type": "string"
+                            },
+                            {
+                                "name": "op_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "execution_id",
+                                "type": "string"
+                            }
+                        ],
+                        "defaultFS": "${HDFS_ROOT_URI}",
+                        "fieldDelimiter": "\t",
+                        "fileName": "falcon_realestate_plate",
+                        "fileType": "orc",
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_FALCONS}/falcon_realestate_plate/load_date=${CURRENT_FLOW_START_DAY}",
+                        "writeMode": "append"
+                    },
+                    "extendScript": {
+                        "post": [
+                            {
+                                "type":"hql",
+                                "script":"ALTER TABLE ${HIVE_DB_ODS_FALCONS}.falcon_realestate_plate ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

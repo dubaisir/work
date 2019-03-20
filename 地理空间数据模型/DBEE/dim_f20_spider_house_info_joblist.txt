@@ -1,0 +1,2 @@
+datax	datax	server_01	datax/etl0/	dx_e0_dim_f20_spider_house_info	src_mysql_dim	raqsoft	f20_spider_house_info	hive	ods_dim	f20_spider_house_info
+hive	hive	server_01	hive/etl1/	hv_e1_dwd_dim_dim_f20_spider_house_info	hive	ods_dim	f20_spider_house_info	hive	dwd_dim	dim_f20_spider_house_info

@@ -1,0 +1,73 @@
+{
+    "job": { 
+        "setting": {
+            "speed": {
+                "channel": 5
+            },
+                "errorLimit":{
+                "record":0,
+                "percentage":0
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "hdfsreader",
+                    "parameter": {
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_APP}/out_keyan/a20_longitude_latitude_out/load_date=${CURRENT_FLOW_START_DAY}",
+                        "defaultFS":"${HDFS_ROOT_URI}",
+                        "column": [ 
+                                   {
+                                    "index":0,
+                                    "type":"string"
+                                    },
+                                   {
+                                    "index":1,
+                                    "type":"string"
+                                    },
+                                   {
+                                    "index":2,
+                                    "type":"string"
+                                    },
+                                   {
+                                    "index":3,
+                                    "type":"string"
+                                    },
+                                   {
+                                    "index":4,
+                                    "type":"double"
+                                    },
+                                   {
+                                    "index":5,
+                                    "type":"double"
+                                    }
+                         ],
+                        "fileType": "orc",
+                        "encoding": "UTF-8"
+                    }
+                },
+                "writer": {
+                    "name": "mysqlwriter",
+                    "parameter": { 
+                        "writeMode": "insert",
+                        "username": "${TGT_MYSQL_LONGFOR_BIG_DATA_USR}",
+                        "password": "${TGT_MYSQL_LONGFOR_BIG_DATA_PWD}",
+                        "column": [
+                          "sourcetable"
+                        ,"sourcetabledsr"
+                        ,"channel"
+                        ,"location_type"
+                        ,"query_lng"
+                        ,"query_lat"
+                                   ],
+                        "preSql": ["truncate table location_info"],
+                        "connection": [{
+                                        "jdbcUrl":"${TGT_MYSQL_LONGFOR_BIG_DATA_URL}?useUnicode=true&characterEncoding=utf8",
+                                        "table": ["longfor_big_data.location_info"]
+                        }]
+                    }
+                }
+            }
+        ]
+    }
+}

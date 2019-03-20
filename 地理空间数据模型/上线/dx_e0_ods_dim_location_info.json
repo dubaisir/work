@@ -1,0 +1,186 @@
+{
+    "job": { 
+        "setting": {
+            "speed": {
+                "channel": 5
+            },
+                "errorLimit":{
+                "record":0,
+                "percentage":0
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "${SRC_MYSQL_LONGFOR_BIG_DATA_USR}",
+                        "password": "${SRC_MYSQL_LONGFOR_BIG_DATA_PWD}",
+                        "connection": [
+                            {
+                                "querySql": [
+                                    "select  
+                                         id, 
+                                         sourcetable, 
+                                         sourcetabledsr, 
+                                         location_type, 
+                                         channel, 
+                                         query_lng, 
+                                         query_lat, 
+                                         year, 
+                                         haspolyline, 
+                                         name, 
+                                         code, 
+                                         longitude, 
+                                         latitude, 
+                                         citycode, 
+                                         polyline, 
+                                         datetime, 
+                                         plateattr, 
+                                         is_finished, 
+                                         updatetime, 
+                                         createtime, 
+                                         '${CURRENT_FLOW_START_DAY}',
+                                         ${EXECUTION_ID} 
+                                    from LONGFOR_BIG_DATA.location_info_result
+                                    where date(updatetime) >= '${LAST_EXTRACT_DAY}'"
+                                ],
+                                "jdbcUrl": [
+                                    "${SRC_MYSQL_LONGFOR_BIG_DATA_URL}"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "hdfswriter",                              
+                    "parameter": { 
+                        "column": [
+                            {
+                                "name": "id",
+                                "type": "bigint"
+                            },
+
+                            {
+                                "name": "sourcetable",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "sourcetabledsr",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "location_type",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "channel",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "query_lng",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "query_lat",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "year",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "haspolyline",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "name",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "code",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "longitude",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "latitude",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "citycode",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "polyline",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "datetime",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "plateattr",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "is_finished",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "updatetime",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "createtime",
+                                "type": "string"
+                            },
+                            {
+                                "name": "op_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "execution_id",
+                                "type": "string"
+                            }
+                        ],
+                        "defaultFS": "${HDFS_ROOT_URI}",
+                        "fieldDelimiter": "\t",
+                        "fileName": "location_info",
+                        "fileType": "orc",
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_DIM}/location_info/load_date=${CURRENT_FLOW_START_DAY}",
+                        "writeMode": "append"
+                    },
+                    "extendScript": {
+                        "post": [
+                            {
+                                "type":"hql",
+                                "script":"ALTER TABLE ${HIVE_DB_ODS_DIM}.location_info ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
