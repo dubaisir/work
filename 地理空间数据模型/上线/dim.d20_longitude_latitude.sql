@@ -9,8 +9,8 @@ create table  d20_longitude_latitude  (
   ,year                         string           comment '查询年'
   ,haspolyline                  boolean          comment '是否包含边界'
 
-  ,op_time                        string           comment 'op_time'  
-  ,execution_id                   string           comment '执行批次'        
+  ,op_time                        string           comment 'op_time'
+  ,execution_id                   string           comment '执行批次'
 
 ) comment '经纬度维度表'
 partitioned by (

@@ -1,5 +1,5 @@
 {
-    "job": { 
+    "job": {
         "setting": {
             "speed": {
                 "channel": 5
@@ -19,23 +19,23 @@
                         "connection": [
                             {
                                 "querySql": [
-                                    "select  
-                                         room_id, 
-                                         village_id, 
-                                         village, 
-                                         city, 
-                                         location_region, 
-                                         location_center, 
-                                         min_area, 
-                                         max_area, 
-                                         towards, 
-                                         model, 
-                                         lon, 
-                                         lat, 
-                                         create_time, 
-                                         update_time, 
+                                    "select
+                                         room_id,
+                                         village_id,
+                                         village,
+                                         city,
+                                         location_region,
+                                         location_center,
+                                         min_area,
+                                         max_area,
+                                         towards,
+                                         model,
+                                         lon,
+                                         lat,
+                                         create_time,
+                                         update_time,
                                          '${CURRENT_FLOW_START_DAY}',
-                                         ${EXECUTION_ID} 
+                                         ${EXECUTION_ID}
                                     from raqsoft.f20_spider_house_info
                                     where date(update_time) >= '${LAST_EXTRACT_DAY}'"
                                 ],
@@ -47,8 +47,8 @@
                     }
                 },
                 "writer": {
-                    "name": "hdfswriter",                              
-                    "parameter": { 
+                    "name": "hdfswriter",
+                    "parameter": {
                         "column": [
                             {
                                 "name": "room_id",
@@ -130,16 +130,16 @@
                         ],
                         "defaultFS": "${HDFS_ROOT_URI}",
                         "fieldDelimiter": "\t",
-                        "fileName": "f20_spider_house_info",
+                        "fileName": "cr_spider_house_info",
                         "fileType": "orc",
-                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_DIM}/f20_spider_house_info/load_date=${CURRENT_FLOW_START_DAY}",
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_DIM}/cr_spider_house_info/load_date=${CURRENT_FLOW_START_DAY}",
                         "writeMode": "append"
                     },
                     "extendScript": {
                         "post": [
                             {
                                 "type":"hql",
-                                "script":"ALTER TABLE ${HIVE_DB_ODS_DIM}.f20_spider_house_info ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
+                                "script":"ALTER TABLE ${HIVE_DB_ODS_DIM}.cr_spider_house_info ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
                             }
                         ]
                     }

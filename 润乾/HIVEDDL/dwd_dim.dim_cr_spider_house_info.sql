@@ -1,5 +1,5 @@
 use ${HIVE_DB_DWD_DIM};
-CREATE TABLE `dim_f20_spider_house_info`(
+CREATE TABLE `dim_cr_spider_house_info`(
   `room_id`              string        comment '房屋id',
   `village_id`           string        comment '小区/公寓项目id',
   `village`              string        comment '小区/公寓项目名称',

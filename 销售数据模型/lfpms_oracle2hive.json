@@ -1,0 +1,49 @@
+{
+	"job": [
+		{
+			"type": "oracle2hive",
+			"oracle": {
+				"dbinfo": {
+					"url": "jdbc:oracle:thin:@192.168.33.163:1521:CUSTOMER",
+					"user": "bigdata_test",
+					"password": "bigdata_test"
+				},
+				"table": [
+				  "CUSTOMERP.T_INTER_PROJECT"
+				],
+				"dbvar": "SRC_ORA_CUSTOMERP"
+			},
+			"hive": {
+				"ownerName": "dwd_customer"
+			},
+			"generateFileLocation": "/home/users/zhangpan1/zpf"
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
