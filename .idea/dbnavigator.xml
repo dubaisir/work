@@ -26,8 +26,12 @@
     <loaded-nodes>
       <connection connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b">
         <schema name="PLN_INTER" object-types="package, view, type, materialized view, function, table, synonym, sequence, column" />
-        <schema name="PLN_INTER_2_JFH" object-types="package, view, type, materialized view, function, table, synonym, sequence, column" />
-        <schema name="PUBLIC" object-types="package, type, function, synonym, sequence" />
+        <schema name="PLN_INTER_2_JFH" object-types="package, view, type, materialized view, function, table, type function, package function, synonym, package type, sequence, column" />
+        <schema name="PUBLIC" object-types="package, view, type, materialized view, function, table, synonym, sequence" />
+      </connection>
+      <connection connection-id="2d6d3f75-0070-4bcc-a091-d2225301d5bd">
+        <schema name="alpha" object-types="procedure, table, column, dataset trigger, constraint, index, view, function" />
+        <schema name="guanyu_expand" object-types="procedure, table, column, dataset trigger, constraint, index, view, function" />
       </connection>
     </loaded-nodes>
   </component>
@@ -53,9 +57,13 @@
     <last-used-providers />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/../zpf/work/沉淀现房vv2.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
+    <mapping file-url="file://$PROJECT_DIR$/../zpf/全景计划节点商机阶段/口径.sql" connection-id="2d6d3f75-0070-4bcc-a091-d2225301d5bd" session-id="MAIN" current-schema="alpha" />
     <mapping file-url="file://$PROJECT_DIR$/../zpf/work/锁定.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
+    <mapping file-url="file://$PROJECT_DIR$/../zpf/work/沉淀现房2.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
+    <mapping file-url="file://$PROJECT_DIR$/../zpf/work/oracle_row2column.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
     <mapping file-url="file://$PROJECT_DIR$/../zpf/work/test.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
-    <mapping file-url="file://$PROJECT_DIR$/../zpf/work/沉淀现房-320.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
+    <mapping file-url="file://$PROJECT_DIR$/../zpf/work/沉淀现房1.sql" connection-id="2b4152d0-ee5a-46fa-9d4f-3947c6d5655b" session-id="MAIN" current-schema="PLN_INTER_2_JFH" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />

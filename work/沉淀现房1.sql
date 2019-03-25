@@ -25,7 +25,7 @@ FROM
            from (
                  select
                  *
-                 from pln_inter_2_jfh.exp_data_jfh_f
+                 from pln_inter_2_jfh.exp_data_jfh_d
                  where
                  --bud_type = '表内项目' and
                  bud_period not in ('上半年','下半年','全年') and
@@ -39,12 +39,12 @@ FROM
                  where dim = 'Entity')    b
                  on a.bud_entity = b.dim_name
            LEFT JOIN  EXP_DATA_JFH_F_YS c
-                  ON a.bud_entity=c.bud_entity
+                  ON a.bud_entity=c.bud_entity and c.BUD_ACCOUNT = '运营交付时间'
            left join  (select  CONCAT(CONCAT(20,substr(a.bud_year,3,2)),lpad(REPLACE(a.bud_period,'月',''),2,0) ) as ym
                      ,sum(case when a.bud_account    = '货值'          then  nvl(a.bud_val,0) else 0       end )  as bud_val_hz --货值
                      ,sum(case when a.bud_account    = '成本'          then  nvl(a.bud_val,0) else 0       end )  as bud_val_cb --成本
                      ,sum(case when a.bud_account    = '权益后利润'      then  nvl(a.bud_val,0) else 0 end )        as bud_val_qyhlr --权益后利润
-                   from pln_inter_2_jfh.exp_data_jfh_f  a
+                   from pln_inter_2_jfh.exp_data_jfh_d  a
                    where
                    bud_period not in ('上半年','下半年','全年') and
                    BUD_ACCOUNT in ('成本','货值','权益后利润') AND
@@ -70,7 +70,7 @@ LEFT JOIN (
                      ,sum(case when a.bud_account    = '货值'          then  nvl(a.bud_val,0) else 0       end )  as bud_val_hz --货值
                      ,sum(case when a.bud_account    = '成本'          then  nvl(a.bud_val,0) else 0       end )  as bud_val_cb --成本
                      ,sum(case when a.bud_account    = '权益后利润'      then  nvl(a.bud_val,0) else 0 end )        as bud_val_qyhlr --权益后利润
-                   from pln_inter_2_jfh.exp_data_jfh_f  a
+                   from pln_inter_2_jfh.exp_data_jfh_d  a
                    where
                    bud_period not in ('上半年','下半年','全年') and
                    BUD_ACCOUNT in ('成本','货值','权益后利润') AND
@@ -78,4 +78,3 @@ LEFT JOIN (
                     group by    CONCAT(CONCAT(20,substr(a.bud_year,3,2)),lpad(REPLACE(a.bud_period,'月',''),2,0) )
                    ) b
            ON a.ym=to_char(ADD_MONTHS(TO_DATE(b.ym,'yyyymm'),1),'yyyymm')
-

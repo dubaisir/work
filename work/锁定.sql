@@ -1,13 +1,28 @@
-SELECT
+select  a.region
+        ,a.projname
+        ,a.YEAR
+        ,a.MONTH
+        ,a.bud_property
+        ,a.ys_sr
+        ,case when a.bud_property='JCE公司' then  0  else a.ys_lr end as ys_lr
+        ,a.yk_sr
+        ,case when a.bud_property='JCE公司' then  0  else a.yk_lr end as yk_lr
+        ,case when a.bud_property in ('商业','费用及其他')    then a.ys_sr else a.ysd_sr end  as ysd_sr
+
+        ,case when a.bud_property in ('商业','费用及其他')    then a.ys_lr
+              when  a.bud_property='JCE公司' then  0  else a.ysd_lr  end  as ysd_lr
+        ,a.wsd_sr
+        ,case when a.bud_property='JCE公司' then  0  else a.wsd_lr   end as wsd_lr
+from ( SELECT
          a.region
         ,a.projname
         ,a.YEAR
         ,a.month
         ,a.BUD_PROPERTY
-        ,sum(CASE WHEN a.bud_c1 in ('预算')  AND a.bud_account in ('收入') THEN nvl(a.bud_val,0)  ELSE 0 END )                          as  ys_sr
-        ,sum(CASE WHEN a.bud_c1 in ('预算') AND a.bud_account in ('利润') THEN nvl(a.bud_val,0)  ELSE 0 END )                          as  ys_lr
-        ,sum(CASE WHEN a.bud_c1='其中：异客金额' AND a.bud_account='收入' THEN nvl(a.bud_val,0)  ELSE 0 END )                          AS yk_lr
-        ,sum(CASE WHEN a.bud_c1='其中：异客金额' AND a.bud_account='利润' THEN nvl(a.bud_val,0)  ELSE 0 END )                          AS yk_sr
+        ,sum(CASE WHEN a.bud_c1 ='预算'  AND a.bud_account ='收入' THEN nvl(a.bud_val,0)  ELSE 0 END )                          as  ys_sr
+        ,sum(CASE WHEN a.bud_c1 ='预算' AND a.bud_account ='利润' THEN nvl(a.bud_val,0)  ELSE 0 END )                          as  ys_lr
+        ,sum(CASE WHEN a.bud_c1='其中：异客金额' AND a.bud_account='收入' THEN nvl(a.bud_val,0)  ELSE 0 END )                          AS yk_sr
+        ,sum(CASE WHEN a.bud_c1='其中：异客金额' AND a.bud_account='利润' THEN nvl(a.bud_val,0)  ELSE 0 END )                          AS yk_lr
         ,sum(CASE WHEN a.bud_c1='累计锁定金额（签约、剔除异客）' AND a.bud_account='收入' THEN nvl(a.bud_val,0)  ELSE 0 END )  as   ysd_sr
         ,sum(CASE WHEN a.bud_c1='累计锁定金额（签约、剔除异客）' AND a.bud_account='利润' THEN nvl(a.bud_val,0)  ELSE 0 END )  as   ysd_lr
         ,sum(CASE WHEN a.bud_c1='累计未锁定（签约、剔除异客）' AND a.bud_account='收入' THEN nvl(a.bud_val,0)  ELSE 0 END )  as   wsd_sr
@@ -68,5 +83,4 @@ GROUP BY
 ,a.YEAR
 ,a.month
 ,a.BUD_PROPERTY
-
-order by 1
+) a
