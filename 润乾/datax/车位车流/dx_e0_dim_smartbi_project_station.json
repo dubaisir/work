@@ -1,0 +1,89 @@
+{
+    "job": { 
+        "setting": {
+            "speed": {
+                "channel": 5
+            },
+                "errorLimit":{
+                "record":0,
+                "percentage":0
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "${SRC_MYSQL_RD_USR}",
+                        "password": "${SRC_MYSQL_RD_PWD}",
+                        "connection": [
+                            {
+                                "querySql": [
+                                    "select  
+                                         projectname, 
+                                         stationnum, 
+                                         create_time, 
+                                         update_time, 
+                                         '${CURRENT_FLOW_START_DAY}',
+                                         ${EXECUTION_ID} 
+                                    from raqsoft.smartbi_project_station"
+                                ],
+                                "jdbcUrl": [
+                                    "${SRC_MYSQL_RD_URL}"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "hdfswriter",                              
+                    "parameter": { 
+                        "column": [
+                            {
+                                "name": "projectname",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "stationnum",
+                                "type": "int"
+                            },
+
+                            {
+                                "name": "create_time",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "update_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "op_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "execution_id",
+                                "type": "string"
+                            }
+                        ],
+                        "defaultFS": "${HDFS_ROOT_URI}",
+                        "fieldDelimiter": "\t",
+                        "fileName": "smartbi_project_station",
+                        "fileType": "orc",
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_DIM}/smartbi_project_station/load_date=${CURRENT_FLOW_START_DAY}",
+                        "writeMode": "append"
+                    },
+                    "extendScript": {
+                        "post": [
+                            {
+                                "type":"hql",
+                                "script":"ALTER TABLE ${HIVE_DB_ODS_DIM}.smartbi_project_station ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

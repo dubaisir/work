@@ -2,102 +2,281 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89bc4a70-c655-49f4-8c12-ecbe22788ca2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/work/沉淀现房vv2.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/全景计划节点商机阶段/口径.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../zpf/易/八卦" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zpf/.idea/dbnavigator.xml" afterPath="$PROJECT_DIR$/../zpf/.idea/dbnavigator.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zpf/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../zpf/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../zpf/work/锁定.sql" afterPath="$PROJECT_DIR$/../zpf/work/锁定.sql" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/../zpf/work/沉淀现房-320.sql" afterPath="$PROJECT_DIR$/../zpf/work/沉淀现房1.sql" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/hiveods_mv/hiveods_mc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/hiveods_mv/hiveods_mv.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/hiveods_mv/mv.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/hiveods_mv/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/vgop_sjzx_check/vgop_sjzx_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/xinan_ftp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bmcc/xinan_ftp/xinan_ftp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/PdCuQ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/work_record_mkdir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/app.a05_contract_tableau.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/app.a05_receipt_sale_amt.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_app_a05_contract_tableau.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_app_a05_receipt_sale_amt.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_e2_dws_f05_contract.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_e2_dws_f05_month_contract.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_e2_dws_f05_month_project.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/hv_e2_dws_f05_month_unit.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/会员消费信息表.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/品牌联单.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/开发1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/开发2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/经营日报.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/work/项目会员.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/会员/KPI_积分_客流_会员.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/会员/会员.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/会员/复购.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品牌内部标签/app.a05_commend_brand.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品牌内部标签/app.a05_commend_contract.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品牌内部标签/brand.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品牌内部标签/hv_app_a05_commend_brand.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/品牌内部标签/hv_app_a05_commend_contract.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/均摊/app.a05_brand_index.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/均摊/hv_app_a05_brand_index.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/均摊/hv_app_a05_month_floor.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/common.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/hive_task_agent.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/补录权重-项目成熟阶段/hv_e1_dwd_dim_dim_smartbi_project_stage.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/补录权重-项目成熟阶段/hv_e1_dwd_dim_dim_smartbi_project_weight.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/补录车位车流/hv_e1_dwd_dim_dim_smartbi_project_station.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/补录车位车流/hv_e1_dwd_dim_dim_traffic_flow.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_arrearage.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_business.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_finance.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/dwd_dim.dim_smartbi_project_stage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/dwd_dim.dim_smartbi_project_weight.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/ods_dim.smartbi_project_stage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/ods_dim.smartbi_project_weight.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_arrearage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_business.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_finance.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_arrearage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_business.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_finance.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/车位车流/dwd_dim.dim_smartbi_project_station.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/车位车流/dwd_dim.dim_traffic_flow.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/车位车流/ods_dim.smartbi_project_station.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/HIVEDDL/车位车流/ods_dim.traffic_flow.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/权重-项目成熟阶段/dx_e0_dim_smartbi_project_stage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/权重-项目成熟阶段/dx_e0_dim_smartbi_project_weight.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_arrearage.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_business.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_finance.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/车位车流/dx_e0_dim_smartbi_project_station.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/datax/车位车流/dx_e0_dim_traffic_flow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/冠寓动态定价/dx_e0_dim_cr_house_type.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/冠寓动态定价/dx_e0_dim_cr_spider_house_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/权重-项目成熟阶段/dim_smartbi_project_stage_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/权重-项目成熟阶段/dim_smartbi_project_weight_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/财务-业务-欠费/dim_smartbi_arrearage_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/财务-业务-欠费/dim_smartbi_business_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/财务-业务-欠费/dim_smartbi_finance_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/车位车流/dim_smartbi_project_station_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/dbee/车位车流/dim_traffic_flow_joblist.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/hive2mysql.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/hive2mysql_longforbigdata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/mysql2hive.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/mysql2hive_falcon.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/mysql2hive_longfor_big_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/mysql2hive_nvwa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/json/mysql2hive_raq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/mysqlDDL/权重-项目成熟阶段/raqsoft.smartbi_project_weight.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_arrearage.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_business.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_finance.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/mysqlDDL/车位/raqsoft.smartbi_project_station.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/润乾/文档" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/a.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/hv_app_a09_dtsydj_04_price_recommend_v3.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/inc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/CONF/inc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/oracle_row2column.sql" beforeDir="false" afterPath="$PROJECT_DIR$/报表/oracle_row2column.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/row_column.sql" beforeDir="false" afterPath="$PROJECT_DIR$/报表/row_column.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bmcc/hiveods_mv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/沉淀现房1.sql" beforeDir="false" afterPath="$PROJECT_DIR$/报表/沉淀现房1.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/沉淀现房vv2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/报表/沉淀现房vv2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/相关连接" beforeDir="false" afterPath="$PROJECT_DIR$/work/相关连接" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/work/锁定.sql" beforeDir="false" afterPath="$PROJECT_DIR$/报表/锁定.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zpf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zpf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/全景计划节点商机阶段/口径.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_cr_house_type.conf" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/CONF/冠寓动态定价/hv_e1_dwd_dim_dim_cr_house_type.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_cr_spider_house_info.conf" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/CONF/冠寓动态定价/hv_e1_dwd_dim_dim_cr_spider_house_info.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/HIVEDDL/dwd_dim.dim_cr_house_type.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/HIVEDDL/冠寓动态定价/dwd_dim.dim_cr_house_type.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/HIVEDDL/dwd_dim.dim_cr_spider_house_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/HIVEDDL/冠寓动态定价/dwd_dim.dim_cr_spider_house_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/HIVEDDL/ods_dim.cr_house_type.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/HIVEDDL/冠寓动态定价/ods_dim.cr_house_type.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/HIVEDDL/ods_dim.cr_spider_house_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/HIVEDDL/冠寓动态定价/ods_dim.cr_spider_house_info.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/datax/dx_e0_dim_cr_house_type.json" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/datax/冠寓动态定价/dx_e0_dim_cr_house_type.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/datax/dx_e0_dim_cr_spider_house_info.json" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/datax/冠寓动态定价/dx_e0_dim_cr_spider_house_info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/mysqlDDL/house_type.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/mysqlDDL/冠寓动态定价/house_type.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.f20_spider_house_info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/润乾/mysqlDDL/冠寓动态定价/raqsoft.f20_spider_house_info.sql" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/../zpf/out/" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/zpf$test.coverage" NAME="test Coverage Results" MODIFIED="1555298108318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/zpf$work_record_mkdir.coverage" NAME="work_record_mkdir Coverage Results" MODIFIED="1555301336239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-767282322">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="conf" value="20" />
+          <entry key="json" value="2" />
+          <entry key="py" value="5" />
+          <entry key="pyi" value="1" />
+          <entry key="sql" value="20" />
+          <entry key="文档" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="2" />
+          <entry key="PLAIN_TEXT" value="21" />
+          <entry key="Python" value="5" />
+          <entry key="PythonStub" value="1" />
+          <entry key="SQL" value="19" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="conf" value="275" />
+          <entry key="dummy" value="20" />
+          <entry key="py" value="277" />
+          <entry key="sql" value="1170" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="295" />
+          <entry key="Python" value="277" />
+          <entry key="SQL" value="1170" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="口径.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/全景计划节点商机阶段/口径.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_contract.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="2250">
+              <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hv_e1_dim_falcons_falcon_realestate_plate.conf" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dim_falcons_falcon_realestate_plate.conf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_contract.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="200">
+              <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="沉淀现房1.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房1.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/开发1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="相关连接" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/work/相关连接">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/ods_dim.smartbi_project_weight.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="25">
+              <caret line="1" column="45" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="锁定.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/work/锁定.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_project.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-              <folding />
+            <state relative-caret-position="198">
+              <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="a.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/work/a.sql">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/润乾/文档">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="325">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oracle_row2column.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../zpf/work/oracle_row2column.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/dwd_dim.dim_smartbi_project_weight.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="39" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="150">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/app.a05_receipt_sale_amt.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="34" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/app.a05_contract_tableau.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="875">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/hv_app_a05_contract_tableau.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -108,31 +287,53 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SQL Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>,</find>
-      <find>HIVE_DB_ODS_ODS_LONGFOR_BIG_DATA</find>
-      <find>level_changed_reason</find>
-      <find>保理</find>
+      <find>source</find>
+      <find>tmp_hive_task_file</find>
+      <find>客流人数</find>
+      <find>TASK_HOME</find>
+      <find>app.a05_month_contract</find>
+      <find>a05_month_contrac</find>
+      <find>C2</find>
+      <find>片区</find>
+      <find>j</find>
+      <find>FROM</find>
+      <find>join</find>
+      <find>mode</find>
+      <find>the_yearsum_total_membernum</find>
+      <find>rentcal_mode</find>
       <find>`</find>
-      <find>NC01175</find>
-      <find>dim_p</find>
-      <find>on</find>
-      <find>select</find>
-      <find>pider_house_info</find>
-      <find>name</find>
-      <find>ower_company_code</find>
-      <find>exp_data_jfh_d</find>
+      <find>bi</find>
+      <find>$</find>
+      <find>}</find>
+      <find>export</find>
+      <find>hive_task_file</find>
+      <find>mng_income</find>
+      <find>Main</find>
+      <find>coll</find>
+      <find>WITH</find>
+      <find>资源ID</find>
+      <find>on 1</find>
+      <find>date</find>
+      <find>_date</find>
+      <find>from</find>
+      <find>concat</find>
     </findStrings>
     <replaceStrings>
       <replace>select distinct</replace>
+      <replace>'</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>F:\zpf\work</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../zpf" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -142,57 +343,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_cr_house_type.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_ods_longfor_big_data.location_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_ods_longfor_big_data.ods_longfor_big_data_location_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_ods_longfor_big_data_location_info.json" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_ods_longfor_big_data_ods_longfor_big_data_location_info.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate_c3.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/a.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dim.pub_realestate_plate.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c3.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c2.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dim_falcons_falcon_realestate_plate.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e1_dim_d20_longitude_latitude_plate_inc.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_longitude2appp.conf" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/datax/dx_e0_ods_dim_location_info.json" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/ods_dim.location_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dwd_ods_longfor_big_data.ods_longfor_big_data_location_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/告警/hv_e2_f01_monitor_task.conf" />
-        <option value="$PROJECT_DIR$/../zpf/告警/conf.sh" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dx_e0_ods_dim_location_info.json" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/DBEE/ods_longfor_big_data_location_info_joblist.txt" />
-        <option value="$PROJECT_DIR$/../zpf/work/password" />
-        <option value="$PROJECT_DIR$/../zpf/work/row_column" />
-        <option value="$PROJECT_DIR$/../zpf/work/row_column.sql" />
-        <option value="$PROJECT_DIR$/../zpf/药方/反流性食道炎" />
-        <option value="$PROJECT_DIR$/../zpf/告警/monitor.sh" />
-        <option value="$PROJECT_DIR$/../zpf/销售数据模型/lfpms_oracle2hive.json" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房(1).sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/a.sql" />
-        <option value="$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dim.d20_longitude_latitude.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/test.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/相关连接" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_f20_spider_house_info.json" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/dwd_dim.dim_f20_spider_house_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.f20_spider_house_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_f20_spider_house_info.conf" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_cr_spider_house_info.json" />
-        <option value="$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.cr_spider_house_info.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/b.sql" />
-        <option value="$PROJECT_DIR$/../zpf/全景计划节点商机阶段/口径.sql" />
-        <option value="$PROJECT_DIR$/../zpf/易/阴阳" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房SQL.txt" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房V2-2.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房2.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房-320.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房2数据源.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/oracle_row2column.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/锁定.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房vv2.sql" />
-        <option value="$PROJECT_DIR$/../zpf/work/沉淀现房1.sql" />
+        <option value="$PROJECT_DIR$/work/a2.sql" />
+        <option value="$PROJECT_DIR$/work/c.sql" />
+        <option value="$PROJECT_DIR$/润乾/datax/dx_e0_dim_smartbi_project_stage.json" />
+        <option value="$PROJECT_DIR$/润乾/datax/dx_e0_dim_smartbi_project_weight.json" />
+        <option value="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_smartbi_project_stage.conf" />
+        <option value="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_smartbi_project_weight.conf" />
+        <option value="$PROJECT_DIR$/work/相关连接" />
+        <option value="$PROJECT_DIR$/品牌内部标签/hv_app_a05_commend_brand.conf" />
+        <option value="$PROJECT_DIR$/品牌内部标签/hv_app_a05_commend_contract.conf" />
+        <option value="$PROJECT_DIR$/润乾/datax/dx_e0_dim_smartbi_project_station.json" />
+        <option value="$PROJECT_DIR$/work/inc.sql" />
+        <option value="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_smartbi_project_station.conf" />
+        <option value="$PROJECT_DIR$/润乾/HIVEDDL/dwd_dim.dim_smartbi_project_stage.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_project_stage.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_project_weight.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_project_station.sql" />
+        <option value="$PROJECT_DIR$/润乾/datax/dx_e0_dim_traffic_flow.json" />
+        <option value="$PROJECT_DIR$/润乾/CONF/hv_e1_dwd_dim_dim_traffic_flow.conf" />
+        <option value="$PROJECT_DIR$/润乾/dbee/dim_smartbi_project_station_joblist.txt" />
+        <option value="$PROJECT_DIR$/work/a1.sql" />
+        <option value="$PROJECT_DIR$/work/经营日报.sql" />
+        <option value="$PROJECT_DIR$/work/hv_e2_dws_f05_month_member_dmp.conf" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_business.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_finance.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/raqsoft.smartbi_arrearage.sql" />
+        <option value="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_arrearage.json" />
+        <option value="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_business.json" />
+        <option value="$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_finance.json" />
+        <option value="$PROJECT_DIR$/润乾/CONF/inc.sql" />
+        <option value="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_business.conf" />
+        <option value="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_arrearage.conf" />
+        <option value="$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_finance.conf" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_finance.sql" />
+        <option value="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_finance.sql" />
+        <option value="$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_finance.sql" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/work/hv_e2_dws_f05_month_contract.conf" />
+        <option value="$PROJECT_DIR$/work/项目粒度(1).sql" />
+        <option value="$PROJECT_DIR$/work/hv_e2_dws_f05_month_unit.conf" />
+        <option value="$PROJECT_DIR$/test/work_record_mkdir.py" />
+        <option value="$PROJECT_DIR$/work/app.a05_contract_tableau.sql" />
+        <option value="$PROJECT_DIR$/work/hv_app_a05_contract_tableau.conf" />
+        <option value="$PROJECT_DIR$/work/hv_app_a05_receipt_sale_amt.conf" />
+        <option value="$PROJECT_DIR$/work/app.a05_receipt_sale_amt.sql" />
+        <option value="$PROJECT_DIR$/work/开发1.sql" />
+        <option value="$PROJECT_DIR$/work/开发2.sql" />
+        <option value="$PROJECT_DIR$/润乾/mysqlDDL/权重-项目成熟阶段/raqsoft.smartbi_project_weight.sql" />
+        <option value="$PROJECT_DIR$/润乾/CONF/补录权重-项目成熟阶段/hv_e1_dwd_dim_dim_smartbi_project_weight.conf" />
+        <option value="$PROJECT_DIR$/润乾/datax/权重-项目成熟阶段/dx_e0_dim_smartbi_project_weight.json" />
+        <option value="$PROJECT_DIR$/work/hv_e2_dws_f05_month_project.conf" />
+        <option value="$PROJECT_DIR$/润乾/文档" />
       </list>
     </option>
   </component>
@@ -209,10 +410,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="757" />
-    <option name="y" value="84" />
-    <option name="width" value="785" />
-    <option name="height" value="720" />
+    <option name="x" value="163" />
+    <option name="y" value="13" />
+    <option name="width" value="929" />
+    <option name="height" value="740" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -243,21 +444,12 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
+    <navigator proportions="" version="1">
       <hideEmptyPackages ProjectPane="false" />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
       <autoscrollFromSource ProjectPane="true" />
-      <sortByType />
-      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -265,6 +457,11 @@
             <path>
               <item name="zpf" type="b2602c69:ProjectViewProjectNode" />
               <item name="zpf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zpf" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zpf" type="462c0819:PsiDirectoryNode" />
+              <item name="润乾" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,25 +472,29 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="dwd_dim.f20_spider_house_info&#9;FILE&#9;file://F:/zpf/润乾/HIVEDDL/dwd_dim.dim_f20_spider_house_info.sql" />
+    <property name="DatabaseDriversLRU" value="java.sql.Driver" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/zpf/work/test.sql&#10;dwd_dim.f20_spider_house_info&#9;FILE&#9;file://F:/zpf/润乾/HIVEDDL/dwd_dim.dim_f20_spider_house_info.sql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zpf" />
+    <property name="last_opened_file_path" value="E:/dbeaver/在安装目录建一个lib文件放入这些jar包/slf4j-log4j12.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\zpf\润乾\HIVEDDL\权重-项目成熟阶段" />
+      <recent name="F:\zpf\润乾\datax\权重-项目成熟阶段" />
+      <recent name="F:\zpf\润乾\CONF\补录权重-项目成熟阶段" />
       <recent name="F:\zpf\work" />
-      <recent name="F:\zpf\销售数据模型" />
-      <recent name="F:\zpf\告警" />
-      <recent name="F:\zpf\地理空间数据模型\上线" />
-      <recent name="F:\zpf\润乾\mysqlDDL" />
+      <recent name="F:\zpf\润乾\CONF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\zpf\work" />
-      <recent name="F:\zpf\地理空间数据模型\上线" />
+      <recent name="F:\zpf\润乾\HIVEDDL" />
+      <recent name="F:\zpf\润乾\dbee" />
+      <recent name="F:\zpf\润乾\CONF" />
+      <recent name="F:\zpf\润乾\datax" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -308,13 +509,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
-      <module name="zpf" />
-      <setting name="vmparams4" value="-Djline.terminal=NONE" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$/../zpf" />
-      <setting name="consoleArgs" value="-usejavacp" />
-    </configuration>
+  <component name="RunManager" selected="Python.work_record_mkdir">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -327,7 +522,7 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zpf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -356,11 +551,17 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -396,17 +597,11 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <envs />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration name="nb" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -418,7 +613,7 @@
       <option name="MAIN_CLASS_NAME" value="zpf.nb" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../zpf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -427,18 +622,71 @@
       <module name="zpf" />
       <envs />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.nb" />
-      <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zpf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\zpf\test\work_record_mkdir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="work_record_mkdir" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="zpf" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/work_record_mkdir.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true">
+      <module name="zpf" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="consoleArgs" value="-usejavacp" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.work_record_mkdir" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.work_record_mkdir" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -486,70 +734,84 @@
       <option name="project" value="LOCAL" />
       <updated>1553481673569</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="zpf">
+      <created>1553512325544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553512325544</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1234" height="736" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53321975" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31666666" sideWeight="0.49659285" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31666666" sideWeight="0.5034072" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30919933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25298128" />
+      <window_info id="Structure" order="1" weight="0.37516004" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" weight="0.53321975" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32673267" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" sideWeight="0.5117241" weight="0.41125542" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48827586" side_tool="true" weight="0.29166666" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="SBT Console" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="15" weight="0.3305648" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296593" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" weight="0.24361159" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32027256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20017035" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="DB Browser" order="7" weight="0.53321975" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" sideWeight="0.5117241" weight="0.41125542" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.48827586" side_tool="true" weight="0.29284525" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="SBT Console" order="11" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3296593" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,309 +851,350 @@
     <MESSAGE value="zpf" />
     <option name="LAST_COMMIT_MESSAGE" value="zpf" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dx_e0_ods_dim_location_info.json" />
-    <entry file="file://$PROJECT_DIR$/../zpf/告警/hv_e2_f01_monitor_task.conf" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c2.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dwd_falcons.falcons_falcon_realestate_plate_c3.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房(1).sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/告警/monitor.sh" />
-    <entry file="file://$PROJECT_DIR$/../zpf/work/inc.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/work/row_column.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dim.d20_longitude_latitude.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dim.d20_longitude_latitude_plate.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/ods_dim.location_info.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/HIVEDDL/dim.pub_realestate_plate.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/mysqlDDL/house_type.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/mysqlDDL/raqsoft.f20_spider_house_info.sql" />
-    <entry file="file://$PROJECT_DIR$/../zpf/zpf.iml">
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/车位/raqsoft.smartbi_project_station.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="54">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.cr_spider_house_info.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/datax/冠寓动态定价/dx_e0_dim_cr_spider_house_info.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="168">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/HIVEDDL/ods_dim.cr_house_type.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/inc.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/HIVEDDL/dwd_dim.dim_cr_spider_house_info.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_business.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/HIVEDDL/dwd_dim.dim_cr_house_type.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_arrearage.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="27">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_cr_spider_house_info.json">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_business.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_arrearage.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_arrearage.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="36" column="55" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/datax/dx_e0_dim_cr_house_type.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_cr_spider_house_info.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/润乾/CONF/hv_e1_dwd_dim_dim_cr_house_type.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dwd_falcons_falcons_falcon_realestate_plate.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_app_a20_longitude_latitude_out.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e2_dim_d20_longitude_latitude_plate_inc.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/password">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/锁定.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="152" column="15" lean-forward="false" selection-start-line="152" selection-start-column="15" selection-end-line="152" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/hv_app_a09_dtsydj_04_price_recommend_v3.conf">
+    <entry file="file://$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_business.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/销售数据模型/lfpms_oracle2hive.json">
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_business.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="365">
+          <caret line="85" column="24" lean-forward="true" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/dim.d20_longitude_latitude_plate.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_finance.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="270">
+          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/上线/hv_e2_dim_d20_longitude_latitude.conf">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/ods_dim.smartbi_finance.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="27">
+          <caret line="1" column="38" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/告警/date.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/告警/dx_e0_app_a01_monitor_task.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/药方/反流性食道炎">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="db://2b4152d0-ee5a-46fa-9d4f-3947c6d5655b/session_browsers/192.168.37.22 Sessions">
-      <provider selected="true" editor-type-id="0.SESSION_BROWSER">
-        <state>
-          <refresh-interval value="0" />
-          <sorting />
-          <filter>
-            <user value="" />
-            <host value="" />
-            <status value="" />
-          </filter>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/test.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/全景计划节点商机阶段/取数口径.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/易/八卦">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="37" lean-forward="false" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/全景计划节点商机阶段/口径.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房2.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房-320.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/财务-业务-欠费/dwd_dim.dim_smartbi_finance.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding />
+          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/相关连接">
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/dwd_dim.dim_smartbi_project_stage.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="225">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房2数据源.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/datax/财务-业务-欠费/dx_e0_dim_smartbi_finance.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1475">
+          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/a.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/财务-业务-欠费/hv_e1_dwd_dim_dim_smartbi_arrearage.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="1500">
+          <caret line="60" column="29" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/oracle_row2column.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_arrearage.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="8" column="5" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/锁定.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_business.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="350">
+          <caret line="14" column="9" selection-end-line="20" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房vv2.sql">
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/财务-业务-欠费/raqsoft.smartbi_finance.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding />
+        <state relative-caret-position="25">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/地理空间数据模型/CONF/hv_e1_dim_falcons_falcon_realestate_plate.conf">
+    <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_member_dmp.conf" />
+    <entry file="file://$PROJECT_DIR$/test/PdCuQ.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../zpf/work/沉淀现房1.sql">
+    <entry file="file://C:/Python34/Lib/http/cookiejar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="74" column="5" lean-forward="false" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="326">
+          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="219" column="34" lean-forward="true" selection-start-line="219" selection-start-column="34" selection-end-line="219" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/24498570-7819-49a8-b27c-651da0d23a49/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmcc/vgop_sjzx_check/vgop_sjzx_check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="38" column="71" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/work_record_mkdir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bmcc/hiveods_mv/mv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="14" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/项目会员.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="695" column="35" selection-start-line="695" selection-start-column="15" selection-end-line="695" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/车位车流/dwd_dim.dim_smartbi_project_station.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/车位车流/dwd_dim.dim_traffic_flow.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/车位车流/ods_dim.traffic_flow.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_app_a05_receipt_sale_amt.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="273" column="29" lean-forward="true" selection-start-line="273" selection-start-column="29" selection-end-line="273" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_unit.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/开发2.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/权重-项目成熟阶段/raqsoft.smartbi_project_stage.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/mysqlDDL/权重-项目成熟阶段/raqsoft.smartbi_project_weight.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="47" lean-forward="true" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/补录权重-项目成熟阶段/hv_e1_dwd_dim_dim_smartbi_project_stage.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/CONF/补录权重-项目成熟阶段/hv_e1_dwd_dim_dim_smartbi_project_weight.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/work_record/2019-04/2019-04-15/hv_e1_dwd_dim_dim_smartbi_project_weight.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/datax/权重-项目成熟阶段/dx_e0_dim_smartbi_project_stage.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="32" column="55" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/datax/权重-项目成熟阶段/dx_e0_dim_smartbi_project_weight.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="141" column="29" lean-forward="true" selection-start-line="141" selection-start-column="29" selection-end-line="141" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/ods_dim.smartbi_project_weight.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="45" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/HIVEDDL/权重-项目成熟阶段/dwd_dim.dim_smartbi_project_weight.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_app_a05_contract_tableau.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_contract.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_contract.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2250">
+          <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/开发1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/app.a05_receipt_sale_amt.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/app.a05_contract_tableau.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/hv_e2_dws_f05_month_project.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="184" column="11" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/润乾/文档">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>

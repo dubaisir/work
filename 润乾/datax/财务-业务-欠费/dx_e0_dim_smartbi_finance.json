@@ -1,0 +1,257 @@
+{
+    "job": { 
+        "setting": {
+            "speed": {
+                "channel": 5
+            },
+                "errorLimit":{
+                "record":0,
+                "percentage":0
+            }
+        },
+        "content": [
+            {
+                "reader": {
+                    "name": "mysqlreader",
+                    "parameter": {
+                        "username": "${SRC_MYSQL_RD_USR}",
+                        "password": "${SRC_MYSQL_RD_PWD}",
+                        "connection": [
+                            {
+                                "querySql": [
+                                    "select  
+                                         the_year, 
+                                         the_month, 
+                                         regionname, 
+                                         projectname, 
+                                         expenditureid, 
+                                         expenditurename, 
+                                         last_month, 
+                                         cur_month, 
+                                         year_bud_app, 
+                                         bud_dev, 
+                                         bud_fin, 
+                                         last_y_curmonth, 
+                                         fac_inc_amt, 
+                                         fac_inc_rate, 
+                                         cur_y_sum, 
+                                         year_bud_sum, 
+                                         bud_dev_sum, 
+                                         bud_sum_rate, 
+                                         last_y_sum, 
+                                         fac_inc_amt_sum, 
+                                         fac_inc_rate_sum, 
+                                         all_y_bud, 
+                                         all_y_bud_app, 
+                                         all_y_bud_dev, 
+                                         all_y_bud_rate, 
+                                         last_y_fac, 
+                                         all_y_bud_inc_amt, 
+                                         all_y_bud_inc_rate, 
+                                         version, 
+                                         type, 
+                                         create_time, 
+                                         update_time, 
+                                         '${CURRENT_FLOW_START_DAY}',
+                                         ${EXECUTION_ID} 
+                                    from raqsoft.smartbi_finance"
+                                ],
+                                "jdbcUrl": [
+                                    "${SRC_MYSQL_RD_URL}"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "writer": {
+                    "name": "hdfswriter",                              
+                    "parameter": { 
+                        "column": [
+                            {
+                                "name": "the_year",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "the_month",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "regionname",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "projectname",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "expenditureid",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "expenditurename",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "last_month",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "cur_month",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "year_bud_app",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "bud_dev",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "bud_fin",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "last_y_curmonth",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "fac_inc_amt",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "fac_inc_rate",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "cur_y_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "year_bud_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "bud_dev_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "bud_sum_rate",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "last_y_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "fac_inc_amt_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "fac_inc_rate_sum",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "all_y_bud",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "all_y_bud_app",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "all_y_bud_dev",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "all_y_bud_rate",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "last_y_fac",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "all_y_bud_inc_amt",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "all_y_bud_inc_rate",
+                                "type": "double"
+                            },
+
+                            {
+                                "name": "version",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "type",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "create_time",
+                                "type": "string"
+                            },
+
+                            {
+                                "name": "update_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "op_time",
+                                "type": "string"
+                            },
+                            {
+                                "name": "execution_id",
+                                "type": "string"
+                            }
+                        ],
+                        "defaultFS": "${HDFS_ROOT_URI}",
+                        "fieldDelimiter": "\t",
+                        "fileName": "smartbi_finance",
+                        "fileType": "orc",
+                        "path": "${HDFS_HV_EXTTB_ROOT}/${HIVE_DB_ODS_DIM}/smartbi_finance/load_date=${CURRENT_FLOW_START_DAY}",
+                        "writeMode": "append"
+                    },
+                    "extendScript": {
+                        "post": [
+                            {
+                                "type":"hql",
+                                "script":"ALTER TABLE ${HIVE_DB_ODS_DIM}.smartbi_finance ADD IF NOT EXISTS PARTITION(load_date='${CURRENT_FLOW_START_DAY}')"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

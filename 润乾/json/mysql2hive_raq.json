@@ -1,0 +1,24 @@
+{
+	"job": [
+			{
+				"type": "mysql2hive",
+				"mysql": {
+					"dbinfo":{
+						"url": "jdbc:mysql://192.168.36.188:3306/raqsoft",
+						"user": "raq",
+						"password": "123456"
+					},
+					"table": [
+						 "raqsoft.smartbi_arrearage"
+                                                ,"raqsoft.smartbi_business"
+                                                ,"raqsoft.smartbi_finance"
+					],
+					"dbvar": "SRC_MYSQL_RAQSOFT"
+				},
+				"hive": {
+					"ownerName": "DIM"
+				},
+				"generateFileLocation":"/home/users/gaomiao/zpf/"
+			}			
+	]
+}

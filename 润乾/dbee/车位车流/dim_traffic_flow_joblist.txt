@@ -1,0 +1,2 @@
+datax	datax	server_01	datax/etl0/	dx_e0_dim_traffic_flow	src_mysql_dim	nyuwa	traffic_flow	hive	ods_dim	traffic_flow
+hive	hive	server_01	hive/etl1/	hv_e1_dwd_dim_dim_traffic_flow	hive	ods_dim	traffic_flow	hive	dwd_dim	dim_traffic_flow

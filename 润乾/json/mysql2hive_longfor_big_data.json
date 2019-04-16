@@ -1,0 +1,22 @@
+{
+	"job": [
+			{
+				"type": "mysql2hive",
+				"mysql": {
+					"dbinfo":{
+						"url": "jdbc:mysql://192.168.36.188:3306/longfor_big_data",
+						"user": "bigdata_w",
+						"password": "bigdata_w1234"
+					},
+					"table": [
+						 "LONGFOR_BIG_DATA.location_info"
+					],
+					"dbvar": "SRC_MYSQL_LONGFOR_BIG_DATA"
+				},
+				"hive": {
+					"ownerName": "ODS_LONGFOR_BIG_DATA"
+				},
+				"generateFileLocation":"/home/users/zhangpan1/zpf/"
+			}			
+	]
+}

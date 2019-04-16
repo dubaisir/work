@@ -1,0 +1,19 @@
+{
+	"job": [
+			{
+				"type": "hive2mysql",
+				"hive": {
+					"db": "app",
+					"table": "a20_longitude_latitude_out",
+					"partition":"load_date=${CURRENT_FLOW_START_DAY}"
+				},
+				"mysql": {
+					"dbvar": "TGT_MYSQL_LONGFOR_BIG_DATA",
+					"table": "location_info",
+					"pre": "truncate table location_info",
+					"post": ""
+				},
+				"generateFileLocation":"/home/users/zhangpan1/zpf"
+			}				
+	]
+}

@@ -1,0 +1,17 @@
+{
+    "ip": "localhost",
+    "port": "19518",
+    "user": "asdasdfdfd",
+    "passwd": "adfasdfasdf",
+    "hdfspath": "/hdfs/ldsp/hiveods/s1u",
+    "localpath": "/mfs/gnftp/s1u",
+    "rolltime": "600",
+    "rollsize": "1234567890",
+    "prefix": ["VIEDO",""],
+    "suffix": "csv",
+    "hostname": ["a","b","c"]
+
+
+
+
+}

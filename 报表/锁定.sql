@@ -63,7 +63,7 @@ from
                  AND d.BUD_PROPERTY != '地产'
 
                  ) a
-                LEFT JOIN PLN_INTER.V_BUD_DIM_VIEW b ON a.bud_entity = b.DIM_NAME
+                LEFT JOIN (select distinct  dim_name,dim_id,DIM_FULL_NAME from PLN_INTER.V_BUD_DIM_VIEW) b ON a.bud_entity = b.DIM_NAME
                 GROUP BY
                  a.BUD_ENTITY
                 ,a.BUD_ACCOUNT

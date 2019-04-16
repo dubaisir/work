@@ -1,14 +1,15 @@
 sql="
-use ${HIVE_DB_DWD_FALCONS};
+use ${HIVE_DB_DWD_DIM};
 with inc_table as (
 select
 
       ,
       ,
-      from ${HIVE_DB_ODS }
+      from ${HIVE_DB_ODS_DIM}
       where load_date = '${CURRENT_FLOW_START_DAY}'
+      
 )
-insert overwrite table
+insert overwrite table  ${HIVE_DB_DWD_DIM}.
 select
       a.
       a.
@@ -25,7 +26,7 @@ from (
        select
              fulldata.
              fulldata.
-             from ${HIVE_DB_DWD}.     fulldata
+             from ${HIVE_DB_DWD_DIM}.     fulldata
              left join inc_table inc
              on fulldata.  = inc.
              where inc. is null
