@@ -1,2 +1,0 @@
-datax	datax	server_01	datax/etl0/	dx_e0_falcons_falcon_realestate_plate_c3	src_mysql_falcons	falcon	falcon_realestate_plate_c3	hive	ods_falcons	falcon_realestate_plate_c3
-hive	hive	server_01	hive/etl1/	hv_e1_dwd_falcons_falcons_falcon_realestate_plate_c3	hive	ods_falcons	falcon_realestate_plate_c3	hive	dwd_falcons	falcons_falcon_realestate_plate_c3

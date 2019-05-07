@@ -1,2 +1,0 @@
-datax	datax	server_01	datax/etl0/	dx_e0_dim_smartbi_project_weight	src_mysql_dim	raqsoft	smartbi_project_weight	hive	ods_dim	smartbi_project_weight
-hive	hive	server_01	hive/etl1/	hv_e1_dwd_dim_dim_smartbi_project_weight	hive	ods_dim	smartbi_project_weight	hive	dwd_dim	dim_smartbi_project_weight
